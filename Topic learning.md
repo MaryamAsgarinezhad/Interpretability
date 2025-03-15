@@ -1,4 +1,3 @@
-
 ### 1. BERTopic: Neural topic modeling with a class-based TF-IDF procedure
 
 - **Authors**: Maarten Grootendorst
@@ -7,17 +6,6 @@
 
 **What it does**:  
 BERTopic uses **sentence embeddings** (commonly from transformer models) and a class-based TF-IDF procedure to generate coherent topics. It’s known for its ease of use and often produces high-quality, interpretable topics.
-
----
-
-### 2. Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence
-
-- **Authors**: Federico Bianchi, Silvia Terragni, and Dirk Hovy
-- **Year**: 2021 (initially posted in 2020, with revisions later)
-- **Link**: [https://arxiv.org/abs/2004.03974](https://arxiv.org/abs/2004.03974)
-
-**What it does**:  
-This paper explores how **pre-trained language models** (like BERT) improve topic coherence when used as document embeddings. They compare different approaches to leverage contextualized embeddings for topic modeling.
 
 ---
 
@@ -40,17 +28,6 @@ Top2Vec automatically discovers **topic vectors** by jointly embedding documents
 
 **What it does**:  
 Proposes **ZeroShotTM**, which leverages large pre-trained language models to **assign topic labels** without requiring labeled training data for those topics—especially useful when you have domain-specific or emergent topics that lack large training corpora.
-
----
-
-### 5. ETM: Embedded Topic Model
-
-- **Authors**: Adji B. Dieng, Francisco J. R. Ruiz, and David M. Blei
-- **Year**: 2019 (foundational; still relevant in more recent research)
-- **Link**: [https://arxiv.org/abs/1907.04907](https://arxiv.org/abs/1907.04907)
-
-**What it does**:  
-While not brand new, the Embedded Topic Model introduced the idea of **learning word embeddings** and topics jointly. It has influenced many subsequent neural topic modeling approaches and remains highly cited in recent works.
 
 ---
 
