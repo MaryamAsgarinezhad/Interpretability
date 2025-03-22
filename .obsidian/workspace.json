@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "BERTopic.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "b73fafbb6f818aa5",
+            "id": "2aa33e468f5204f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "TF-IDF.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "820a8520c56b7352",
+            "id": "d0f7f70b3445c2af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "Topic learning"
             }
+          },
+          {
+            "id": "b73fafbb6f818aa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOInter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOInter"
+            }
+          },
+          {
+            "id": "e966b36bab857eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top2Vec.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Top2Vec"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -197,14 +225,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b73fafbb6f818aa5",
+  "active": "e966b36bab857eaa",
   "lastOpenFiles": [
-    "BERTopic.md",
     "Topic learning.md",
+    "Top2Vec.md",
     "TF-IDF.md",
-    "Pasted image 20250315190253.png",
     "SOInter.md",
     "Energy function.md",
+    "BERTopic.md",
+    "Pasted image 20250315190253.png",
     "Untitled",
     "Pasted image 20250314202131.png",
     "Pasted image 20250314201934.png",

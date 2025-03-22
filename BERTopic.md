@@ -77,3 +77,31 @@ HDBSCAN is an ==unsupervised== clustering algorithm that extends DBSCAN (Density
 
 ---
 
+### **Text Encoding with Pre-trained Transformers**
+
+- BERTopic leverages **Sentence-BERT (SBERT)** or similar transformer-based models to generate **semantic embeddings** of documents.
+- **Sentence-BERT (SBERT)** is a modification of BERT that produces **fixed-size vector representations** for sentences and short texts.
+- Each document (or sentence) is **passed through the transformer model**, which outputs a **high-dimensional vector** (usually 384 to 1024 dimensions).
+
+---
+
+## **. Architecture of SBERT**
+
+SBERT **modifies BERT** in the following ways:
+
+### **A) BERT Backbone**
+
+- Uses **pre-trained BERT** (or variants like RoBERTa, DistilBERT).
+- Processes input sentences **individually**, unlike standard BERT, which processes sentence pairs.
+
+### **B) Mean Pooling or CLS Token**
+
+- The **final layer outputs a contextualized word embedding** for each token in the input sentence.
+- Instead of using only the **[CLS] token**, SBERT **averages** all token embeddings to create a **fixed-size sentence embedding**.
+
+### **C) Siamese & Triplet Network**
+
+- SBERT **fine-tunes BERT using contrastive learning**, where **sentence pairs** are trained to be close if they are similar and far apart if they are not.
+- **Loss functions** used:
+    - **Contrastive Loss**: Encourages similar sentences to have closer embeddings.
+    - **Triplet Loss**: Forces a sentence to be closer to a similar one and further from a dissimilar one.
